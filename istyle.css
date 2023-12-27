@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+
+.portal {
+    
+  background: skyblue;
+}
+
+.portal h1{
+    display: flex;
+    justify-content: center;
+}
+
+.portal .portal_box{
+    width: 100px;
+    height: 50px;
+
+}
+
+.portal input{
+    width: 229px;
+    height: 30px;
+}
+
+.portal .Forget {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portal .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    border: none;
+    
+    width: 229px;
+    height: 30px;
+}

@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Grading System</title>
+    <link rel="stylesheet" href="istyle.css">
 </head>
 <body>
-    <form>
+    
         <div class="portal">
          <h1> Login </h1>
                 <div class="portal_box">
@@ -15,6 +17,9 @@
                     <div class="portal_box">
                         <input type="password" placeholder="Password" name="Password" required>
                         </div>
+                        <div class="Forget">
+                        <a href="register">Forgot Password</a>
+                         </div>
                         <div class="btn">
                             <button type="submit" >Log in </button>
                         </div>
@@ -24,6 +29,6 @@
 
                             </div>
         </div>
-    </form>
+    
 </body>
 </html>
